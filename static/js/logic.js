@@ -145,7 +145,7 @@ var darkmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?
 
 // Due to large size of month data and large size of plates data, timer and function needed to prevent mapper from rendering before layers are defined, otherwise
 // empty renders empty maps.
-setTimeout(mapper, 3000)
+setTimeout(mapper, 5000)
 
 //Create the map.
 var earth, plates, bounds, steps, week, day, month;
