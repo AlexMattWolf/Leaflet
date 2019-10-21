@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, #map {
+	height: 100%;
+}
+
+.leaflet-popup-content {
+	font-size: 12px;
+}
+
+/*Backgorund color white on popups, make semi-transparent*/
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+	background: rgba(255, 255, 255, .85);
+}
+
+/*Set up box for legend, background, font, etc*/
+.legend {
+	padding: 8x;
+	font-size: 12px;
+	color: #353535;
+	background: rgba(255, 255, 255, .7);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.legend ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.legend .color {
+	display: inline-block;
+	width: 32px;
+	height: 29.5px;
+	float: right;
+}
+
+.legend b {
+	display: inline-block;
+	padding-top: 4px;
+}
+
+.legend li {
+	padding: 4px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold
+}
