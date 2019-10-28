@@ -33,8 +33,9 @@ html, body, #map {
 }
 
 .legend .color {
-	width: 29px;
-	height: 30px;
+	display: inline-block;
+	width: 32px;
+	height: 28px;
 	float: right;
 }
 
