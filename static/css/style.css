@@ -35,13 +35,13 @@ html, body, #map {
 .legend .color {
 	display: inline-block;
 	width: 32px;
-	height: 32px;
+	height: 31px;
 	float: right;
 }
 
 .legend b {
 	display: inline-block;
-	padding-top: 4px;
+	padding-top: 3px;
 }
 
 .legend li {
