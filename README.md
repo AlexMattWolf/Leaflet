@@ -37,7 +37,7 @@ This data is mapped with several differing maps to allow users to view the data 
 * Wait a couple seconds as the large datasets take time to load.
 
 ## Potential Issues
-* If the site is load too quickly, it's possible that the larger dataset, _"Monthly Data"_, didn't have time to load and there would not be present.
+* If the site loads too quickly, it's possible that the larger dataset, _"Monthly Data"_, didn't have time to load. This would result in that layer not being present. Try reloading, including a hard reload. ctrl + shift + r
 
 ## Author
 
